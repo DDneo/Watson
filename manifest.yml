@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: Watson-projetc
+  host: watson-projetc
+  disk_quota: 1024M
+  services:
+  - Personality Insights-lf
+  - Language Translator-18
+  - Tradeoff Analytics-xr
+  - AlchemyAPI-ze
